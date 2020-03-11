@@ -28,9 +28,10 @@ function minusValue() {
 
 function render() {
     if (counter > 0) {
-        counterEl.style.color = 'black'       
+        counterEl.style.color = 'black'
+       
     } else if (counter < 0) {
-        counterEl.style.color = 'red'       
+        counterEl.style.color = 'red' 
     }   
 }
 
